@@ -53,6 +53,7 @@ name.lower()        # all lower
 - Strings are **immutable**: methods return a new string, they don't change the old one, so assign the result: `name = name.strip()`
 - Methods are functions that belong to a value, called with a dot
 - Chain them: `input("Name: ").strip().title()`
+- `name.capitalize().strip()` runs left to right: `capitalize()` then `strip()`
 - `split` breaks a string into a list: `"Ada Lovelace".split(" ")` gives `["Ada", "Lovelace"]`
 - `+` joins strings, `*` repeats them: `"ha" * 3` is `"hahaha"`
 
